@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/p2"
+    tools:context="com.intel.location.ma.app.kidlock.a2"
+    android:background="@color/white">
+
+
+
+    <ToggleButton
+        android:layout_width="160dp"
+        android:layout_height="212.26dp"
+        android:id="@+id/toggleButton"
+        android:textOn=""
+        android:textOff=""
+        android:scaleType="fitCenter"
+        android:background="@drawable/toggle_selector"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+    <!--
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Child Name: "
+        android:id="@+id/childName"
+        android:layout_marginTop="53dp"
+
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Phone Number: "
+        android:id="@+id/parentNum"
+
+        android:layout_marginTop="68dp"
+        android:layout_below="@+id/childName"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"/>
+    -->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="   Return to Input Page   "
+        android:id="@+id/goBack"
+        android:layout_below="@+id/toggleButton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="55dp"
+        android:textSize="25dp"
+        android:background="?android:attr/selectableItemBackground"/>
+</RelativeLayout>
